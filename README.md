@@ -9,9 +9,10 @@ Demonstrates:
 - Game loop and score tracking
 
 ## Features
-- Two-player gameplay
-- Snake grows when eating food
-- Collision detection (walls, self, opponent)
+- Two-player gameplay mimicing a hunter, prey envrironment(The bigger snake has more advantage over the smaller snake)
+- Player 1 uses arrow keys, Player 2 uses W/A/S/D
+- Snakes grows when eating food
+- Collision detection (self, opponent)
 - Score display for each player
 - Restart functionality
 
@@ -26,3 +27,4 @@ Demonstrates:
 1. Install dependencies:
    ```bash
    pip install -r requirements.txt
+2. Run the game: Snake.py(Do not forget to put the food, background, and code in the same folder).
